@@ -1,0 +1,48 @@
+
+
+.App{
+    background-image: url("../public/galaxy_background.jpeg");
+    background-size: cover;
+}
+
+.Header{
+    display: flex;
+}
+.project-name{
+    width: 33vw;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 800;
+    background-image: url("../public/shooting_star.gif");
+    background-size: cover;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav>ul {
+    list-style: none;
+    padding-left: 8rem !important;
+}
+
+footer{
+    color: white;
+}
+
+a {
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav {
+    width: 33vw;
+}
+
+img {
+    float: right;
+}
